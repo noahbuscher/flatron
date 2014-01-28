@@ -3,7 +3,7 @@ Flatron
 
 Flatron is a minimalist Sublime Text theme. It's flat, purple, and hella sexy. Done in collaboration with [Cosmin Negoita](https://twitter.com/cosminnegoita).
 
-### Installiation
+### Installation
 
 Looking to install Flatron? You, good person, have a handsome taste in text editor themes.
   1. Download the [latest release](https://github.com/Codingbean/Flatron/releases)
