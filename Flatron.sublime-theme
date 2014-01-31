@@ -197,7 +197,7 @@
         "class": "fold_button_control",
         "layer0.texture": "Theme - Flatron/Flatron/unfold.png",
         "layer0.inner_margin": [5, 5, 5, 5],
-        "opacity": 0.5,
+        "layer0.opacity": 0.5,
         "content_margin": [8, 8]
     },
     {
@@ -465,7 +465,7 @@
     {
         "class": "sidebar_heading",
         "color": [101, 96, 109],
-        "font.bold": true,
+        "font.bold": true
     },
     // Sidebar heading selected
     {
@@ -882,7 +882,7 @@
     {
         "class": "icon_context",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [53, 49, 60],
+        "layer0.tint": [53, 49, 60]
     },
     // Use search buffer
     {
@@ -895,7 +895,7 @@
     {
         "class": "icon_use_buffer",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [53, 49, 60],
+        "layer0.tint": [53, 49, 60]
     },
 
 //
