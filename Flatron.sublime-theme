@@ -874,7 +874,6 @@
     // Show search context button
     {
         "class": "icon_context",
-        "layer0.texture": "Theme - Flatron/Flatron/context.png",
         "layer0.tint": [53, 49, 60],
         "layer0.opacity": 1,
         "content_margin": [12, 2, 24, 24]
@@ -887,7 +886,6 @@
     // Use search buffer
     {
         "class": "icon_use_buffer",
-        "layer0.texture": "Theme - Flatron/Flatron/buffer.png",
         "layer0.tint": [53, 49, 60],
         "layer0.opacity": 1,
         "content_margin": [12, 2, 24, 24]
