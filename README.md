@@ -9,7 +9,7 @@ Flatron is a minimalist Sublime Text 3 theme. It's flat, purple, and hella sexy.
 
 Looking to install Flatron? You, good person, have a handsome taste in text editor themes.
   1. Download the [latest release](https://github.com/Codingbean/Flatron/releases)
-  * Unzip the files and rename the folder to Theme - Flatron
+  * Unzip the files and rename the folder to `Theme - Flatron`; be sure to include the spaces
   * Find your Packages directory using the menu item `Preferences -> Browse Packages`
   * Copy the folder into your Sublime Text `Packages` directory
   * Open your User Settings Preferences file `Sublime Text -> Preferences -> Settings - User`
