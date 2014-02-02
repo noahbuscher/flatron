@@ -1,7 +1,7 @@
 Flatron
 =======
 
-Flatron is a minimalist Sublime Text theme. It's flat, purple, and hella sexy. Done in collaboration with [Cosmin Negoita](https://twitter.com/csmnng).
+Flatron is a minimalist Sublime Text 3 theme. It's flat, purple, and hella sexy. Done in collaboration with [Cosmin Negoita](https://twitter.com/csmnng).
 
 ![Flatron](Screenshots/Flatron.png)
 
