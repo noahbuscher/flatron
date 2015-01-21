@@ -5,7 +5,7 @@ dir_string='/Library/Application Support/Sublime Text 3'
 sublime_dir="$HOME$dir_string"
 sublime_package_dir="$sublime_dir/Packages"
 git_url="git@github.com:NoahBuscher/Flatron.git"
-dest_path="$sublime_package_dir/Theme - TESTron"
+dest_path="$sublime_package_dir/Theme - Flatron"
 
 # Colors
 Reset='\033[0m' # No Color
@@ -55,16 +55,13 @@ step "Checking for Sublime Text 3 Installation"
 if [ ! -d "$sublime_dir" ]; then fail "Sublime Text 3 installation not found"; else success; fi
 
 step "Checking if theme already installed..."
-success
-# if [ -d "$dest_path" ]; then fail "Flatron Theme already installed"; else success; fi
+if [ -d "$dest_path" ]; then fail "Flatron Theme already installed"; else success; fi
 
 step "Installing Flatron Theme"
-success
-# if output=$(git clone "$git_url" "$dest_path" > /dev/null 2>&1); then success; else fail "Unable to download the theme. Please try again."; fi
+if output=$(git clone "$git_url" "$dest_path" > /dev/null 2>&1); then success; else fail "Unable to download the theme. Please try again."; fi
 
 step "Verifying Flatron installed properly"
-success
-# if output=$(ls "$dest_path" > /dev/null 2>&1); then success; else fail "It does not appear that Flatron installed properly. Please try again."; fi
+if output=$(ls "$dest_path" > /dev/null 2>&1); then success; else fail "It does not appear that Flatron installed properly. Please try again."; fi
 
 echo ""
 echo -e " ${FgBlue}>>>${Reset} ${FgGreen}Installation successful!${Reset}"
