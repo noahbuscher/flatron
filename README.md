@@ -11,14 +11,28 @@ Looking to install Flatron? You, good person, have a handsome taste in text edit
 
 #### Package Manager
 
-If you are using Will Bond's excellent Sublime Package Control, you can easily install Flatron.
-  1. Open `Package Control: Install Package` and install the package called `Flatron`
-  2. Open your User Settings Preferences file `Sublime Text -> Preferences -> Settings - User`
-  3. Add (or update) your theme entry to be `"theme": "Flatron.sublime-theme"`
-  4. Change your color scheme to Flatron under `Preferences -> Color Scheme -> Theme - Flatron -> Flatron` in the menu; note this step is not required, but is highly reccommended
-  5. Restart Sublime Text and do a happy dance
+The easiest way to install is using [Sublime Package Control](https://sublime.wbond.net), where Flatron is listed.
+
+1. Open Command Palette using menu item `Tools -> Command Palette...` (<kbd>⇧</kbd><kbd>⌘</kbd><kbd>P</kbd> on Mac)
+2. Choose `Package Control: Install Package`
+3. Find `Flatron` and hit <kbd>Enter</kbd>
 
 #### Manual
-  1. Download the [installer script](https://raw.githubusercontent.com/NoahBuscher/Flatron/master/install-sl3.sh) (cmd/ctrl+s)
-  2. Go to the directory where you saved the script in your terminal and run `sh insatll-sl3.sh`.
-  3. Do a happy dance! :tada:
+
+1. Download the [installer script](https://raw.githubusercontent.com/NoahBuscher/Flatron/master/install-sl3.sh) (cmd/ctrl+s)
+2. Go to the directory where you saved the script in your terminal and run `sh insatll-sl3.sh`
+  
+### Activating
+
+You can then activate the UI theme and color scheme by modifying your user preferences file, which you can find using the menu item `Sublime Text -> Preferences -> Settings - User` (<kbd>⌘</kbd><kbd>,</kbd> on Mac).
+
+***Note: Don't forget to restart Sublime Text after activating the theme.***
+
+```json
+{
+  "color_scheme": "Packages/Flatron/Flatron.tmTheme",
+  "theme": "Flatron.sublime-theme"
+}
+```
+
+Yay! Flatron is now installed! :tada:
