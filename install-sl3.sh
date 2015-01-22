@@ -5,7 +5,7 @@ dir_string='/Library/Application Support/Sublime Text 3'
 sublime_dir="$HOME$dir_string"
 sublime_package_dir="$sublime_dir/Packages"
 git_url="git@github.com:NoahBuscher/Flatron.git"
-dest_path="$sublime_package_dir/Theme - Flatron"
+dest_path="$sublime_package_dir/Flatron"
 
 # Colors
 Reset='\033[0m' # No Color
