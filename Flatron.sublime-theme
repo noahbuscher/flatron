@@ -722,7 +722,7 @@
         "class": "quick_panel_label",
         "fg": [167, 173, 186, 255],
         "match_fg": [192, 197, 206, 255],
-        "selected_fg": [192, 197, 206, 255],
+        "selected_fg": [255, 255, 255, 255],
         "selected_match_fg": [239, 241, 245, 255]
     },
     {
